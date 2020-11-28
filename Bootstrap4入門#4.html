@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lag="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>bootstrap</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+
+
+    <div class="container mt-5">
+
+      <!--navの書き方-->
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">あらすじ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">登場人物</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">視聴率</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">挿入歌</a>
+        </li>
+      </ul>
+
+      <!--jumbotron（ウェブページのトップページの一番上に配置する）の書き方-->
+      <div class="jumbotron">
+        <h1 class="display-4">賢い医者生活</h1>
+        <p class="lead">主演：チョジョンソク、ユヨンソク、チョンギョンホ、キムデミョン、チョンミド</p>
+        <hr class="my-4">
+        <p>シーズン1、2020年放送</p>
+        <p>シーズン2、2021年放送
+        <span class="badge badge-secondary">予定！</span></p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">詳細</a>
+      </div>
+
+      <!--buttonsの書き方-->
+      <button class="btn btn-primary" type="button" name="button">購入する</button>
+      <button class="btn btn-secondary" type="button" name="button">購入する</button>
+      <button class="btn btn-success" type="button" name="button">購入する</button>
+      <button class="btn btn-link" type="button" name="button">購入する</button>
+
+
+      <!--cardショッピングサイトの商品購入の部分-->
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aloha<br>－賢い医者生活OST－</h5>
+          <p class="card-text">어두운 불빛아래 촛불하나 와인 잔에 담긴 약속하나
+항상 너의 곁에서 널 지켜줄거야</p>
+          <a href="#" class="btn btn-primary">ダウンロード</a>
+        </div>
+      </div>
+
+
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">メールアドレス</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">コメント</label>
+          <input class="form-control" id="exampleInputPassword1">
+        </div>
+
+        <button type="submit" class="btn btn-primary">提出</button>
+      </form>
+    </div>
+  </body>
+</html>
